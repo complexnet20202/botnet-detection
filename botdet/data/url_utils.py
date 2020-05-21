@@ -48,11 +48,12 @@ def download_url(url, folder, log=True):
         print('Downloading', url)
 
     makedirs(folder)
-    data = urllib.request.urlopen(url)
+    urllib.request.urlretrieve(url, path) # data
 
-    with open(path, 'wb') as f:
-        f.write(data.read())
+    #with open(path, 'wb') as f:
+    #    f.write(data.read())
 
+    print('Download ok')
     return path
 
 

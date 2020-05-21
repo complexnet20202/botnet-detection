@@ -143,7 +143,8 @@ class BotnetDataset(Dataset):
 
         if not files_exist(self.raw_paths[1:3]):
             assert osp.exists(self.raw_paths[0])
-            path = extract_tar(self.raw_paths[0], self.raw_dir)
+            #path = 
+            extract_tar(self.raw_paths[0], self.raw_dir)
             # os.unlink(self.raw_paths[0])
 
         print('Processing...')

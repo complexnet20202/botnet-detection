@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "botnet-detection"
+version = "0.1.0"
+description = "Topological botnet detection datasets and automatic detection with graph neutral networks."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.2.1"
+networkx = "^2.4"
+torch_geometric = "^1.4.3"
+dgl = "^0.4.3"
+plotly = "^4.7.1"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

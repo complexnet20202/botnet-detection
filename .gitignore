@@ -1,4 +1,6 @@
-./data/
+.vscode
+
+data/
 ./saved_models/
 
 # Byte-compiled / optimized / DLL files
